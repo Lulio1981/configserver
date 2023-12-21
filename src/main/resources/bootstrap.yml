@@ -1,0 +1,19 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lulio1981/configserverdata/
+          username: Lulio1981
+          password: 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
+          skipSslValidation: true
+
+  security:
+    user:
+      name: root
+      password: Luca
+
